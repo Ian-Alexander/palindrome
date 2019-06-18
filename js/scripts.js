@@ -18,21 +18,15 @@ $(document).ready(function() {
 
     $(".phrase").text(string);
 
-    // if (string === revString) {
-    //   $(".not").text("");
-    // } else {
-    //   $(".not").text("not");
-    // }
-
     if (string === revString) {
-      $("#result").text("That is a palindrome");
+      $(".not").text("");
     } else {
-      $("#result").text("That is not a palindrome");
+      $(".not").text("not");
     }
 
     $("#result").show;
 
     console.log();
-    
+    debugger;
   });
 });
