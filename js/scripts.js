@@ -24,9 +24,9 @@ $(document).ready(function() {
       $(".not").text("not");
     }
 
-    $("#result").show;
+    $("#result").show();
 
-    console.log();
-    debugger;
+    // console.log();
+    // debugger;
   });
 });
